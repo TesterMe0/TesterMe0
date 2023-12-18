@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.logo-container {
+    margin: auto;
+    margin-top:;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-placement {
+    color: #0000c6;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 72px;
+}
+
+.whitepaper-container {
+    margin: auto;
+    margin-top: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+}
+
+.whitepaper-title {
+    z-index: 1; /* this is doing nothing */
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.whitepaper-content {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-container {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 75px;
+    background-color: #0d6cbe;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 200ms ease-in-out;
+}
+
+.button:hover {
+    background-color: #094c86;
+}
+
+.twitter-container {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.twitter {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+.twitter:hover {
+    color: #094c86;
+}
